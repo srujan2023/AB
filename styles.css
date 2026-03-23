@@ -327,6 +327,46 @@ h1 {
   font-size: 12px;
 }
 
+.site-footer {
+  margin-top: 24px;
+  border-top: 1px solid var(--border);
+  background: color-mix(in srgb, var(--bg) 92%, var(--surface));
+}
+
+.footer-row {
+  padding: 18px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-copy {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.footer-links a {
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 13px;
+  padding: 6px 10px;
+  border-radius: 10px;
+}
+
+.footer-links a:hover,
+.footer-links a:focus-visible {
+  color: var(--text);
+  background: var(--surface);
+  outline: none;
+}
+
 @media (min-width: 720px) {
   .nav {
     display: inline-flex;
@@ -343,6 +383,12 @@ h1 {
     height: 76px;
     border-radius: 20px;
     font-size: 20px;
+  }
+
+  .footer-row {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
   }
 
   .edu-grid {
