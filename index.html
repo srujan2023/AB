@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Website</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-row">
+        <a class="brand" href="#top" aria-label="Home">
+          <span class="brand-badge" aria-hidden="true"></span>
+          <span class="brand-text">
+            <strong>Website</strong>
+            <span>Welcome</span>
+          </span>
+        </a>
+
+        <nav class="nav" aria-label="Primary">
+          <a href="#features">Features</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="actions">
+          <a class="btn" href="#contact">Sign in</a>
+          <a class="btn primary" href="#contact">Get started</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="top">
+      <div class="container">
+        <h1>Home</h1>
+        <section id="profile" class="profile" aria-labelledby="profile-title">
+          <div class="profile-card">
+            <div class="profile-avatar" aria-hidden="true">U</div>
+            <div class="profile-body">
+              <div class="profile-head">
+                <h2 id="profile-title">Srujan AB</h2>
+                <p class="profile-role">Full Stack Developer</p>
+              </div>
+              <p class="profile-bio">
+                Short bio goes here. Add a few lines about what you do, what you're building, and how people can reach
+                you.
+              </p>
+              <div class="profile-actions">
+                <a class="btn primary" href="#contact">Contact</a>
+                <a class="btn" href="#features">View work</a>
+              </div>
+              <dl class="profile-stats" aria-label="Profile stats">
+                <div>
+                  <dt>Projects</dt>
+                  <dd>12</dd>
+                </div>
+                <div>
+                  <dt>Experience</dt>
+                  <dd>3+ yrs</dd>
+                </div>
+                <div>
+                  <dt>Location</dt>
+                  <dd>India</dd>
+                </div>
+              </dl>
+            </div>
+          </div>
+        </section>
+
+        <section id="education" class="education" aria-labelledby="education-title">
+          <div class="section-head">
+            <h2 id="education-title">College & School</h2>
+            <p class="section-subtitle">Education details tailored for a developer profile.</p>
+          </div>
+
+          <div class="edu-grid" role="list">
+            <article class="edu-card" role="listitem">
+              <div class="edu-top">
+                <h3>Bachelor of Technology (CSE)</h3>
+                <p class="edu-meta">ABC Engineering College • 2021–2025</p>
+              </div>
+              <p class="edu-desc">
+                Focus: Data Structures, Web Development, DBMS, Operating Systems. Built projects with HTML/CSS/JS and
+                React.
+              </p>
+              <div class="edu-tags" aria-label="Skills">
+                <span class="tag">DSA</span>
+                <span class="tag">Web</span>
+                <span class="tag">DBMS</span>
+              </div>
+            </article>
+
+            <article class="edu-card" role="listitem">
+              <div class="edu-top">
+                <h3>Senior Secondary (Class 12)</h3>
+                <p class="edu-meta">XYZ Senior Secondary School • 2019–2021</p>
+              </div>
+              <p class="edu-desc">Stream: Science (PCM/CS). Activities: coding club, hackathons, and mini projects.</p>
+              <div class="edu-tags" aria-label="Highlights">
+                <span class="tag">Computer Science</span>
+                <span class="tag">Math</span>
+                <span class="tag">Projects</span>
+              </div>
+            </article>
+
+            <article class="edu-card" role="listitem">
+              <div class="edu-top">
+                <h3>Secondary (Class 10)</h3>
+                <p class="edu-meta">XYZ High School • 2018–2019</p>
+              </div>
+              <p class="edu-desc">Strong foundation in math and problem solving. Started learning programming basics.</p>
+              <div class="edu-tags" aria-label="Highlights">
+                <span class="tag">Problem solving</span>
+                <span class="tag">Basics</span>
+              </div>
+            </article>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
